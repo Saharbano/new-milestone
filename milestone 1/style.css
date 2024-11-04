@@ -1,0 +1,108 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url(black-background-with-focus-spot-light_1017-27230.avif);
+    background-repeat: no-repeat;
+    background-size: cover;
+  
+}
+ h1{
+   color: rgb(255, 208, 208);
+   text-align: center;
+   text-shadow: 2px 2px rgb(0, 0, 0);
+   margin-top: 20px;
+   font-size: 50px;
+   box-shadow: 10px 5px 15px red;
+ 
+}
+.image{
+   
+      
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       box-shadow: 10px 10px 15px rgba(112, 110, 110, 0.3);
+      
+
+}
+.image img{
+    margin-top: 0;
+    width: 250px;
+    height: 220px;
+    margin-left: 100px;
+    border: 2px rgb(0, 0, 0) solid;
+    border-radius: 150px;
+    margin-right: 30px;
+    box-shadow: 10px 10px 15px rgba(12, 12, 12, 0.3);
+}
+.image h2{
+    color: rgb(211, 94, 94);
+    text-align: center;
+    margin-top: 20px;
+    font-size: 50px;
+    box-shadow: 10px 10px 15px rgb(0, 0, 0);
+    text-shadow: 10px 5px 15px rgb(0, 0, 0);
+}
+.dives{
+    display: flex;
+   color: white;
+    justify-content: space-around;
+}
+.dives #div1,#div2, #div3, #div4{
+    width: 300px;
+    height: 320px;
+    background-color: black;
+    border: 1px solid white;
+    box-shadow: 10px 10px 15px rgba(255, 255, 255, 0.3);
+    color: rgb(243, 123, 123);
+      text-align: center;
+    margin-top: 50px;
+}
+
+#div1 p{
+    font-size: 20px;
+    margin-top: 30px;
+    box-shadow: 10px 10px 15px rgba(255, 255, 255, 0.3)
+
+}
+
+#div2 p{
+    font-size: 20px;
+    /* line-height: 30px; */
+    margin-top: 30px;
+    /* border: 1px solid rgb(182, 181, 181); */
+    box-shadow: 10px 10px 15px rgba(255, 255, 255, 0.3)
+
+}
+#div3 p{
+    font-size: 20px;
+    /* line-height: 30px; */
+    margin-top: 30px;
+    /* border: 1px solid rgb(182, 181, 181); */
+    box-shadow: 10px 10px 15px rgba(255, 255, 255, 0.3)
+
+}
+#div4 p{
+    height: 20px;
+ font-size: 20px;
+ margin-top: 30px;
+box-shadow: 10px 10px 15px rgba(255, 255, 255, 0.3)
+
+}
+
+
+
+.toggleButton{
+    background-color: black;
+    box-shadow: 10px 10px 15px rgba(255, 255, 255, 0.3);
+    color: rgb(243, 123, 123);
+    cursor: pointer;
+  height: 50px;
+  width: 100px;
+  margin-top: 25px;
+
+
+}
+
+
+
+
